@@ -1,0 +1,47 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>internship form</title>
+<style>
+p{
+color:blue;
+font-family:Times New Roman;
+</style>
+</head>
+
+<body bgcolor="LightGrey">
+<h1 style='color:red;font-size:48px;'><u>Internship Application</u></h1>
+<form method="POST" action="success.html">
+<p> Enter Your Name: </p>
+<input type="text" name="Name">
+<p> Enter Your Email: </p>
+<input type="email" name="Email">
+<p> Enter Your Password: </p>
+<input type="password" name="Password">
+<p> Enter Your Age: </p>
+<input type="number" name="Age">
+<p> Gender: </p>
+<input type="radio" name="male" value="male"/>Male</br>
+<input type="radio" name="female" value="female"/>Female</br>
+<p> About Yourself: </p>
+<textarea rows="2" cols="10">
+</textarea>
+<p> Which programming Languages Do You Know ? </p>
+<input type="checkbox" name="C" value="on">C</input><br>
+<input type="checkbox" name="C++" value="on">C++</input><br>
+<input type="checkbox" name="Java" value="on">Java</input><br>
+<input type="checkbox" name="Python" value="on">Python</input><br>
+<p> How Many Months Would You Like To Be As An Intern In Our Company: </p>
+<select name="dropdown"/>
+<option value="1 month">1 month<br>
+<option value="3 months">3 months<br>
+<option value="6 months">6 months<br>
+<option value="1 year">1 year<br>
+</select>
+<p> Upload Your Resume </p>
+<input type="file" name="fileupload" accept="document/*"/>
+<p>
+</p>
+<a href="success.html" ><input type="submit" value="submit" ></a>
+</body>
+</html>
